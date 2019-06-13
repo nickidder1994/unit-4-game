@@ -7,8 +7,9 @@ console.log("win")
 console.log("randomResults")
 
 for(var i = 0; i < 4; i++) {
-    var crystals = $("<diw>");
-    $(".crystals").append(crystals)
+    var crystal = $("<diw>");
+    crystal.attr("class", "crystals")
+    $(".crystals").append(crystal)
 }
 
 //create a random number generator for all four crystals between 1 - 12
