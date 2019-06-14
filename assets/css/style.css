@@ -1,6 +1,31 @@
 
-.crystals {
+.crystals1 {
     border: 2px solid palevioletred;
     width: 80px;
     height: 100px;
+    display: inline-block;
+    
+}
+.crystals2 {
+    border: 2px solid palevioletred;
+    width: 80px;
+    height: 100px;
+    display: inline-block;    
+}
+.crystals3 {
+    border: 2px solid palevioletred;
+    width: 80px;
+    height: 100px;
+    display: inline-block;
+    display: inline-block;
+}
+.crystals4 {
+    border: 2px solid palevioletred;
+    width: 80px;
+    height: 100px;
+    display: inline-block;
+}
+img {
+    width: 79px;
+    height: 99px;
 }
