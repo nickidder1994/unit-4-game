@@ -1,28 +1,6 @@
-.crystals_1 {
-    border: 2px solid blueviolet;
+
+.crystals {
+    border: 2px solid palevioletred;
     width: 80px;
     height: 100px;
-    margin-left: 20px;
-    display: inline-block;
-}
-.crystals_2 {
-    border: 2px solid blueviolet;
-    width: 80px;
-    height: 100px;
-    margin-left: 20px;
-    display: inline-block;
-}
-.crystals_3 {
-    border: 2px solid blueviolet;
-    width: 80px;
-    height: 100px;
-    margin-left: 20px;
-    display: inline-block;
-}
-.crystals_4 {
-    border: 2px solid blueviolet;
-    width: 80px;
-    height: 100px;
-    margin-left: 20px;
-    display: inline-block;
 }
