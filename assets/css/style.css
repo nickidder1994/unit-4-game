@@ -29,3 +29,9 @@ img {
     width: 79px;
     height: 99px;
 }
+.container {
+    border: 2px solid bisque;
+    width: 85px;
+    height: 60px;
+}
+

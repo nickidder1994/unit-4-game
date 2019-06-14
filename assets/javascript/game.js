@@ -8,21 +8,21 @@ var crystal3
 var crystal4
 
 function generateRandomNumbers() {
-    targetNumber = Math.floor(Math.random()*120)+1
-    crystal1 = Math.floor(Math.random()*12)+1
-    crystal2 = Math.floor(Math.random()*12)+1
-    crystal3 = Math.floor(Math.random()*12)+1
-    crystal4 = Math.floor(Math.random()*12)+1
+    targetNumber = Math.floor(Math.random() * 120) + 1
+    crystal1 = Math.floor(Math.random() * 12) + 1
+    crystal2 = Math.floor(Math.random() * 12) + 1
+    crystal3 = Math.floor(Math.random() * 12) + 1
+    crystal4 = Math.floor(Math.random() * 12) + 1
 }
 generateRandomNumbers();
 console.log(targetNumber)
 
 
 // for(var i = 0; i < 4; i++){
-    
+
 //     var crystal = $("<div>");
 //     crystal.attr("class", "crystals");
-    
+
 //     $(".crystals").append(crystal);
 // }
 
