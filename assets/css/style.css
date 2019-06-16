@@ -83,4 +83,10 @@ p {
     border: inset gray;
     margin-top: 15px
 }
+.value-box {
+    width: 100px;
+    height: 100px;
+    border: inset 2px black;
+    margin-top: 15px;
+}
 

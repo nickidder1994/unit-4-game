@@ -41,7 +41,11 @@ $(".crystal").on("click", function (event){
         console.log("You lose")
     }
 
-})
+});
+$(".random-number-box").append(targetNumber)
+$("value-box").append(crystal1)
+
+
 
 // for(var i = 0; i < 4; i++){
 
