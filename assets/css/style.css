@@ -79,16 +79,10 @@ p {
     font-size: 75px;
 }
 .score-box {
-    width: 150px;
+    width: 350px;
     height: 20px;
     border: inset gray;
     margin-top: 15px
 }
-.value-box {
-    width: 100px;
-    height: 100px;
-    border: inset 2px black;
-    margin-top: 15px;
-    font-size: 50px;
-}
+
 

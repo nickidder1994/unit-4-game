@@ -2,7 +2,7 @@ var randomResults;
 var win;
 var lose;
 var targetNumber;
-var userScore = addCrystalValues();
+var userScore = 0;
 var crystal1
 var crystal2
 var crystal3
@@ -31,18 +31,20 @@ $(".crystal").on("click", function (event){
     var clickedCrystal = event.currentTarget.attributes[1].value
     userScore += parseInt(clickedCrystal)
     console.log(clickedCrystal)
-    
+    console.log(userScore)
+    $(".score-box").append(userScore)
 
     // Logic to check if userScore is = to taretNumber
     // Else if userScore is greater than targetNunber game over
     if(userScore === targetNumber) {
-        alert("You Win!!!")
+        alert("You Win");
+        
     } else if (userScore > targetNumber) {
-        alert("You Lose!!!")
+        alert("You Lose!")
     }
 
 });
 $(".random-number-box").append(targetNumber)
-$(".score-box").append(clickedCrystal)
+
 
 
