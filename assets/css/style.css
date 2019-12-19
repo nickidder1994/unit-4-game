@@ -1,15 +1,16 @@
 #title-box {
-    border: 2px inset red;
-    width: 350px;
+    border: 2px inset dimgray;
+    width: 450px;
     height: 100px;
-    background-color: red;
+    background-color: dimgray;
     margin-bottom:15px; 
+    margin-left: 450px;
 }
 h1 {
-    margin-left: 75px;
-    font-family: monospace;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 35px;
-    color: whitesmoke;
+    color: black;
 }
 .crystals1 {
     border: 2px outset whitesmoke;
@@ -58,18 +59,20 @@ p {
     color: white;
 }
 .container {
-    border: 2px inset red;
-    background-color: red;
-    width: 85px;
-    height: 60px;
+    border: 2px inset dimgray;
+    background-color:dimgray;
+    width: 150px;
+    height: 100px;
     margin-left: 400px;
 }
 .wins{
     color: whitesmoke;
+    font-size: 20px;
 }
 .loses {
     color: whitesmoke;
-    padding-top: 5px
+    margin-top: 50px;
+    font-size: 20px;
 }
 .random-number-box{
     width:200px;
